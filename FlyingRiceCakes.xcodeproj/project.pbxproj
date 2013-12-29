@@ -14,13 +14,18 @@
 		D79098C418707CAF00572B6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D79098C318707CAF00572B6A /* main.m */; };
 		D79098C818707CAF00572B6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D79098C718707CAF00572B6A /* AppDelegate.m */; };
 		D79098CB18707CAF00572B6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79098C918707CAF00572B6A /* Main.storyboard */; };
-		D79098CE18707CAF00572B6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D79098CD18707CAF00572B6A /* ViewController.m */; };
 		D79098D018707CB000572B6A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D79098CF18707CB000572B6A /* Images.xcassets */; };
 		D79098D718707CB000572B6A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79098D618707CB000572B6A /* XCTest.framework */; };
 		D79098D818707CB000572B6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79098B718707CAF00572B6A /* Foundation.framework */; };
 		D79098D918707CB000572B6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79098BB18707CAF00572B6A /* UIKit.framework */; };
 		D79098E118707CB000572B6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D79098DF18707CB000572B6A /* InfoPlist.strings */; };
 		D79098E318707CB000572B6A /* FlyingRiceCakesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D79098E218707CB000572B6A /* FlyingRiceCakesTests.m */; };
+		D79098ED18707D4A00572B6A /* ricecake600.png in Resources */ = {isa = PBXBuildFile; fileRef = D79098EC18707D4A00572B6A /* ricecake600.png */; };
+		D79098EF18707E1E00572B6A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79098EE18707E1E00572B6A /* OpenGLES.framework */; };
+		D79098F118707E2D00572B6A /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79098F018707E2D00572B6A /* GLKit.framework */; };
+		D79098F318707E6F00572B6A /* Play.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79098F218707E6F00572B6A /* Play.storyboard */; };
+		D79098F618707E9000572B6A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D79098F518707E9000572B6A /* MainViewController.m */; };
+		D79098F9187080DC00572B6A /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D79098F8187080DC00572B6A /* PlayViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +50,22 @@
 		D79098C618707CAF00572B6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D79098C718707CAF00572B6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D79098CA18707CAF00572B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D79098CC18707CAF00572B6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D79098CD18707CAF00572B6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D79098CF18707CB000572B6A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D79098D518707CB000572B6A /* FlyingRiceCakesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyingRiceCakesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D79098D618707CB000572B6A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D79098DE18707CB000572B6A /* FlyingRiceCakesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlyingRiceCakesTests-Info.plist"; sourceTree = "<group>"; };
 		D79098E018707CB000572B6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D79098E218707CB000572B6A /* FlyingRiceCakesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyingRiceCakesTests.m; sourceTree = "<group>"; };
+		D79098EC18707D4A00572B6A /* ricecake600.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ricecake600.png; path = img/ricecake600.png; sourceTree = "<group>"; };
+		D79098EE18707E1E00572B6A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		D79098F018707E2D00572B6A /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		D79098F218707E6F00572B6A /* Play.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Play.storyboard; sourceTree = "<group>"; };
+		D79098F418707E9000572B6A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D79098F518707E9000572B6A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D79098F7187080DC00572B6A /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		D79098F8187080DC00572B6A /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		D79098FA187081D000572B6A /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		D79098FC187081DC00572B6A /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D79098F118707E2D00572B6A /* GLKit.framework in Frameworks */,
+				D79098EF18707E1E00572B6A /* OpenGLES.framework in Frameworks */,
 				D79098BA18707CAF00572B6A /* CoreGraphics.framework in Frameworks */,
 				D79098BC18707CAF00572B6A /* UIKit.framework in Frameworks */,
 				D79098B818707CAF00572B6A /* Foundation.framework in Frameworks */,
@@ -101,6 +116,8 @@
 		D79098B618707CAF00572B6A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D79098F018707E2D00572B6A /* GLKit.framework */,
+				D79098EE18707E1E00572B6A /* OpenGLES.framework */,
 				D79098B718707CAF00572B6A /* Foundation.framework */,
 				D79098B918707CAF00572B6A /* CoreGraphics.framework */,
 				D79098BB18707CAF00572B6A /* UIKit.framework */,
@@ -114,10 +131,15 @@
 			children = (
 				D79098C618707CAF00572B6A /* AppDelegate.h */,
 				D79098C718707CAF00572B6A /* AppDelegate.m */,
-				D79098C918707CAF00572B6A /* Main.storyboard */,
-				D79098CC18707CAF00572B6A /* ViewController.h */,
-				D79098CD18707CAF00572B6A /* ViewController.m */,
 				D79098CF18707CB000572B6A /* Images.xcassets */,
+				D79098FC187081DC00572B6A /* Shader.vsh */,
+				D79098FA187081D000572B6A /* Shader.fsh */,
+				D79098C918707CAF00572B6A /* Main.storyboard */,
+				D79098F418707E9000572B6A /* MainViewController.h */,
+				D79098F518707E9000572B6A /* MainViewController.m */,
+				D79098F218707E6F00572B6A /* Play.storyboard */,
+				D79098F7187080DC00572B6A /* PlayViewController.h */,
+				D79098F8187080DC00572B6A /* PlayViewController.m */,
 				D79098BE18707CAF00572B6A /* Supporting Files */,
 			);
 			path = FlyingRiceCakes;
@@ -126,6 +148,7 @@
 		D79098BE18707CAF00572B6A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D79098EC18707D4A00572B6A /* ricecake600.png */,
 				D79098BF18707CAF00572B6A /* FlyingRiceCakes-Info.plist */,
 				D79098C018707CAF00572B6A /* InfoPlist.strings */,
 				D79098C318707CAF00572B6A /* main.m */,
@@ -231,6 +254,8 @@
 				D79098D018707CB000572B6A /* Images.xcassets in Resources */,
 				D79098C218707CAF00572B6A /* InfoPlist.strings in Resources */,
 				D79098CB18707CAF00572B6A /* Main.storyboard in Resources */,
+				D79098ED18707D4A00572B6A /* ricecake600.png in Resources */,
+				D79098F318707E6F00572B6A /* Play.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +274,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D79098CE18707CAF00572B6A /* ViewController.m in Sources */,
+				D79098F9187080DC00572B6A /* PlayViewController.m in Sources */,
 				D79098C818707CAF00572B6A /* AppDelegate.m in Sources */,
+				D79098F618707E9000572B6A /* MainViewController.m in Sources */,
 				D79098C418707CAF00572B6A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
